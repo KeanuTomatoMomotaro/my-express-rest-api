@@ -11,11 +11,15 @@ my express rest-api playground
 
 
 # Features Implemented
-- [] generate jwt token with JSONWEBTOKEN
+- [x] generate jwt token with JSONWEBTOKEN
+- [] generate jwt token with JSONWEBTOKEN form-data, not url-encoded
+- [] generate jwt token with JSONWEBTOKEN securely with bcrypt
 - [] simple image processing with JIMP
 
-## Technologies, Libraries and tools used
+## Technologies, Libraries and tools integrated in the project
 - [nodejs](https://nodejs.org/)
 - [expressjs](https://expressjs.com/)
 - [mocha](https://mochajs.org/)
 - [chai](www.chaijs.com)
+- [body-parser](https://github.com/expressjs/body-parser)
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
